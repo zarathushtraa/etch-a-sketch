@@ -35,9 +35,9 @@ sizeButton.addEventListener('click',() => {
 sizeButton.setAttribute('style','height: 20px; width: 150px');
 document.body.insertBefore (sizeButton,container);
 
-/*const scndButton = document.createElement('button');
+const scndButton = document.createElement('button');
 scndButton.textContent = 'Restart sketch';
-sizeButton.addEventListener('click', ()=>{
+scndButton.addEventListener('click', ()=> {
     const branches = document.querySelectorAll('.branch');
     for (const branch of branches){
         branch.style.backgroundColor = 'white';
@@ -45,7 +45,7 @@ sizeButton.addEventListener('click', ()=>{
 });
 scndButton.setAttribute('style','height: 20px; width: 150px');
 document.body.insertBefore (scndButton,container);
-*/
+
 
 
 function readjustSize (desiredSize) {
